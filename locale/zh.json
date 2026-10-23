@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AGENTS.md 子代理",
+    "description": "在子代理中完成 AGENTS.md 的创建、修复与审计，指令不进入主对话。通过 /agentinit 运行。"
+  }
+}

@@ -1,0 +1,5 @@
+# agents-init bundle patch: inserts the Host row that owns the skill provider
+# and the /agentinit command.
+- insert:
+    - id: skill-agents-init
+      name: 'dsh-agents-init'

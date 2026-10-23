@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AGENTS.md Subagent",
+    "description": "Build, repair, or audit an AGENTS.md inside a subagent, so no instructions enter the main conversation. Runs with /agentinit."
+  }
+}

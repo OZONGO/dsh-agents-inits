@@ -1,0 +1,36 @@
+{
+  "name": "dsh-agents-init",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Run an AGENTS.md build, repair, or audit entirely inside a subagent, so the main conversation never pays for the work.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agents-md",
+    "subagent"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "references/methodology.md",
+    "scripts/agents_md.py",
+    "locale/en.json",
+    "locale/zh.json",
+    "README.md",
+    "README.en.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
