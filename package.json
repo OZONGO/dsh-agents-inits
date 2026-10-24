@@ -1,7 +1,6 @@
 {
   "name": "dsh-agents-init",
   "version": "1.0.0",
-  "private": true,
   "description": "Run an AGENTS.md build, repair, or audit entirely inside a subagent, so the main conversation never pays for the work.",
   "keywords": [
     "dsh",
@@ -11,6 +10,14 @@
     "subagent"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OZONGO/dsh-agents-inits.git"
+  },
+  "homepage": "https://github.com/OZONGO/dsh-agents-inits#readme",
+  "bugs": {
+    "url": "https://github.com/OZONGO/dsh-agents-inits/issues"
+  },
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -26,7 +33,8 @@
     "locale/en.json",
     "locale/zh.json",
     "README.md",
-    "README.en.md"
+    "README.en.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {
